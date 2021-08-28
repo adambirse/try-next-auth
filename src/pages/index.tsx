@@ -1,11 +1,9 @@
-import { Navigation } from "../components/navigation";
-import { SignIn } from "../components/signIn";
+import { Layout } from "../components/layout";
 
 export default function Page() {
   return (
-    <>
-      <SignIn />
-      <Navigation />
-    </>
+    <Layout>
+      <h1>NextAuth demo</h1>
+    </Layout>
   );
 }
