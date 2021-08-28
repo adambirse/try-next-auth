@@ -20,7 +20,12 @@ export default function ProtectedPage() {
   }, [session]);
 
   // When rendering client side don't display anything until loading is complete
-  if (typeof window !== "undefined" && loading) return null;
+  if (typeof window !== "undefined" && loading)
+    return (
+      <Layout>
+        <span>loading...</span>
+      </Layout>
+    );
 
   if (!session) {
     return (
