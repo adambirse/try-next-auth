@@ -1,9 +1,10 @@
 # nextjs-bootstrap
 
-A NextJS with typescript project, for bootstrapping more involved development.  Includes:
- - Jest
- - Prettier
- - es lint
+A NextJS with typescript project, for bootstrapping more involved development. Includes:
+
+- Jest
+- Prettier
+- es lint
 
 ## Configure Google OAuth
 
@@ -11,9 +12,10 @@ A NextJS with typescript project, for bootstrapping more involved development.  
 cp .env.local.example .env.local
 ```
 
-Follow instructions [here](https://github.com/nextauthjs/next-auth-example) 
+Follow instructions [here](https://github.com/nextauthjs/next-auth-example)
 
 update in `.env.local`:
+
 ```
 GOOGLE_ID=
 GOOGLE_SECRET=
