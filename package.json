@@ -29,7 +29,7 @@
     "*.{js,json,ts,tsx,yaml}": "prettier --write"
   },
   "dependencies": {
-    "@types/node": "^16.11.24",
+    "@types/node": "^16.11.25",
     "@types/react": "^17.0.39",
     "next": "^11.1.4",
     "next-auth": "^3.29.0",
@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "format-package": "^6.1.0",
     "husky": "^7.0.4",
