@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@types/node": "^16.18.58",
-    "@types/react": "^17.0.67",
+    "@types/react": "^17.0.68",
     "next": "^11.1.4",
     "next-auth": "^3.29.10",
     "react": "^17.0.2",
