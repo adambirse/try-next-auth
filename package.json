@@ -29,7 +29,7 @@
     "*.{js,json,ts,tsx,yaml}": "prettier --write"
   },
   "dependencies": {
-    "@types/node": "^16.18.67",
+    "@types/node": "^16.18.68",
     "@types/react": "^17.0.71",
     "next": "^11.1.4",
     "next-auth": "^3.29.10",
